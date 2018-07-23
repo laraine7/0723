@@ -1,0 +1,21 @@
+2018-07-20 19:07:36,781 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 19:07:47,616 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 19:07:49,280 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 19:08:10,743 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 19:08:11,259 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 19:08:13,509 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 19:08:13,776 - my_log.py[line:47] - CRITICAL:----------执行异常--------local variable 'all_h' referenced before assignment
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 129, in test_07
+    self.comfirm_order.Payment_method()
+  File "D:\Test\fash_tech_end\pages\Comfirm_order_page.py", line 72, in Payment_method
+    self.driver.switch_to.window(all_h[0])
+UnboundLocalError: local variable 'all_h' referenced before assignment
+2018-07-20 19:08:24,600 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

@@ -1,0 +1,39 @@
+2018-07-20 18:13:45,197 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 18:14:03,767 - my_log.py[line:47] - CRITICAL:----------执行异常--------find_elements() takes from 1 to 3 positional arguments but 6 were given
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 141, in test08
+    self.get_order.get_order_no()
+  File "D:\Test\fash_tech_end\pages\Order_list.py", line 14, in get_order_no
+    self.find_elements(self.Pay_data_loc[0]).text()
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 57, in find_elements
+    elements = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_elements(*loc))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 57, in <lambda>
+    elements = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_elements(*loc))
+TypeError: find_elements() takes from 1 to 3 positional arguments but 6 were given
+2018-07-20 18:14:03,794 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 18:14:09,744 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 18:14:20,237 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 18:14:21,578 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 18:14:28,367 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 18:14:39,075 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 129, in test_07
+    self.comfirm_order.Payment_method()
+  File "D:\Test\fash_tech_end\pages\Comfirm_order_page.py", line 46, in Payment_method
+    order_no=self.find(self.Order_no_loc).text
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 61, in find
+    element = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_element(*loc))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-07-20 18:14:39,689 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

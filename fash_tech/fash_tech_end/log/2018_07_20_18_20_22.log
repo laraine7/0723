@@ -1,0 +1,4 @@
+2018-07-20 18:20:22,034 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 18:20:33,854 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None

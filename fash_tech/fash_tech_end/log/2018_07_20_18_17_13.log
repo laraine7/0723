@@ -1,0 +1,31 @@
+2018-07-20 18:17:13,804 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 18:17:24,988 - my_log.py[line:47] - CRITICAL:----------执行异常--------find_elements() takes from 1 to 3 positional arguments but 6 were given
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 151, in test08
+    self.get_order.get_order_no()
+  File "D:\Test\fash_tech_end\pages\Order_list.py", line 14, in get_order_no
+    self.find_elements(self.Pay_data_loc[0]).text()
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 57, in find_elements
+    elements = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_elements(*loc))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 57, in <lambda>
+    elements = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_elements(*loc))
+TypeError: find_elements() takes from 1 to 3 positional arguments but 6 were given
+2018-07-20 18:17:24,994 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 18:17:29,678 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 18:17:42,153 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 18:17:42,670 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 18:17:50,812 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 18:17:57,526 - my_log.py[line:35] - INFO:------打印支付方式页面的句柄:U0720LBX0--------
+NoneType: None
+2018-07-20 18:18:04,330 - my_log.py[line:47] - CRITICAL:----------执行异常--------%s
+NoneType: None
+2018-07-20 18:18:05,180 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

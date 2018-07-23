@@ -1,0 +1,41 @@
+2018-07-20 18:06:12,988 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 18:06:49,015 - my_log.py[line:47] - CRITICAL:----------执行异常--------find_element() takes from 1 to 3 positional arguments but 6 were given
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 141, in test08
+    self.get_order.get_order_no()
+  File "D:\Test\fash_tech_end\pages\Order_list.py", line 14, in get_order_no
+    self.find_element(self.Pay_data_loc[0]).text()
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 46, in find_element
+    element=WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 63, in __call__
+    return _find_element(driver, self.locator)
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 397, in _find_element
+    return driver.find_element(*by)
+TypeError: find_element() takes from 1 to 3 positional arguments but 6 were given
+2018-07-20 18:06:49,148 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 18:06:53,130 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 18:07:03,997 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 18:07:04,549 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 18:07:08,445 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 18:07:19,722 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tech_end\TestCase\test_fash_tech_cn.py", line 129, in test_07
+    self.comfirm_order.Payment_method()
+  File "D:\Test\fash_tech_end\pages\Comfirm_order_page.py", line 46, in Payment_method
+    order_no=self.find_element(self.Order_no_loc).text()
+  File "D:\Test\fash_tech_end\lee_selenium.py", line 46, in find_element
+    element=WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-07-20 18:07:21,648 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

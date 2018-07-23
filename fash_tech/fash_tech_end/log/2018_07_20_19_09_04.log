@@ -1,0 +1,26 @@
+2018-07-20 19:09:04,320 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 19:09:13,804 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 19:09:15,428 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 19:09:20,549 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 19:09:27,815 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 19:09:28,972 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 19:09:31,657 - my_log.py[line:35] - INFO:--------支付页面的句柄：微信支付-----------
+NoneType: None
+2018-07-20 19:09:31,661 - my_log.py[line:35] - INFO:------打印支付订单号:U0720yY1C--------
+NoneType: None
+2018-07-20 19:09:34,664 - my_log.py[line:35] - INFO:----------------支付日期:2018-07-20 19:09:28-------------
+NoneType: None
+2018-07-20 19:09:34,696 - my_log.py[line:35] - INFO:----------------支付单号:U0720yY1C-------------
+NoneType: None
+2018-07-20 19:09:34,715 - my_log.py[line:35] - INFO:----------------支付状态:待支付-------------
+NoneType: None
+2018-07-20 19:09:34,719 - my_log.py[line:47] - CRITICAL:----------执行异常--------%s
+NoneType: None
+2018-07-20 19:09:35,385 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

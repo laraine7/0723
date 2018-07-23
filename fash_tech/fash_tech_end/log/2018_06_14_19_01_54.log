@@ -1,0 +1,16 @@
+2018-06-14 19:01:54,534 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 19:02:30,870 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 19:02:32,883 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 19:02:44,948 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 19:02:51,080 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-06-14 19:02:52,672 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-06-14 19:02:53,679 - my_log.py[line:35] - INFO:------打印支付方式页面的句柄--------
+NoneType: None
+2018-06-14 19:02:58,524 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

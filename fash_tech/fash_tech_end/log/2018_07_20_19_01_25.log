@@ -1,0 +1,24 @@
+2018-07-20 19:01:25,822 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-07-20 19:01:37,118 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-07-20 19:01:39,771 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-07-20 19:01:47,310 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-07-20 19:01:48,591 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-07-20 19:01:52,149 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-07-20 19:01:52,727 - my_log.py[line:35] - INFO:--------支付页面的句柄：-----------
+NoneType: None
+2018-07-20 19:01:57,398 - my_log.py[line:35] - INFO:----------------支付日期2018-07-20 19:01:52-------------
+NoneType: None
+2018-07-20 19:01:57,507 - my_log.py[line:35] - INFO:----------------支付单号U0720KBJT-------------
+NoneType: None
+2018-07-20 19:01:57,592 - my_log.py[line:35] - INFO:----------------支付状态待支付-------------
+NoneType: None
+2018-07-20 19:01:57,598 - my_log.py[line:47] - CRITICAL:----------执行异常--------%s
+NoneType: None
+2018-07-20 19:01:58,368 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None
