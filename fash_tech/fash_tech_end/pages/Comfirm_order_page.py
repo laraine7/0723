@@ -50,6 +50,8 @@ class ComfirmOrder(Lee):
             jubin = self.driver.title
             logger.info("--------支付页面的句柄：%s-----------" % jubin)
             logger.info("------打印支付订单号:%s--------" % order_no)
+            self.driver.switch_to.window(all_h[0])
+            
         elif number==1:
             self.click(self.Pay_now_loc)
             all_h = self.driver.window_handles
@@ -58,6 +60,7 @@ class ComfirmOrder(Lee):
             jubin = self.driver.title
             logger.info("--------支付页面的句柄：%s-----------" % jubin)
             logger.info("------打印支付订单号:%s--------" % order_no)
+            self.driver.switch_to.window(all_h[0])
 
         elif number==2:
             self.click(self.Pay_now_loc)
@@ -67,9 +70,7 @@ class ComfirmOrder(Lee):
             jubin = self.driver.title
             logger.info("--------支付页面的句柄：%s-----------" % jubin)
             logger.info("------打印支付订单号:%s--------" % order_no)
-
-
-        self.driver.switch_to.window(all_h[0])
+            self.driver.switch_to.window(all_h[0])
 
     def Pay_now(self):
 
