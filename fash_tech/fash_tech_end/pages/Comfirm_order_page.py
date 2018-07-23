@@ -27,7 +27,7 @@ class ComfirmOrder(Lee):
 
     Order_no_loc_1=("css selector",".commodity-message-row>span:nth-child(1)")
     Order_no_loc_2=("css selector",".pay-style>p>span")
-    Order_no_loc_3=("css selector","")
+    Order_no_loc_3=("css selector",".order_main>p:nth-child(2)")
 
     #操作方法
 
