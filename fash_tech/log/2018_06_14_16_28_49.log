@@ -1,0 +1,10 @@
+2018-06-14 16:28:49,302 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 16:29:19,151 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 16:29:21,623 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 16:29:27,909 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 16:29:35,654 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

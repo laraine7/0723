@@ -1,0 +1,28 @@
+2018-06-14 17:55:19,314 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 17:55:51,841 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 17:55:54,626 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 17:56:05,304 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 17:56:09,674 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-06-14 17:56:10,871 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-06-14 17:56:21,105 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 127, in test_07
+    self.comfirm_order.Payment_method()
+  File "D:\Test\fash_tect_end\pages\Comfirm_order.py", line 29, in Payment_method
+    number=self.random_randint(self.Payment_method_loc)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 62, in random_randint
+    elements = self.find_elements(loc)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 57, in find_elements
+    elements = WebDriverWait(self.driver, timrout, 1).until(lambda x: x.find_elements(*loc))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-06-14 17:56:21,800 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

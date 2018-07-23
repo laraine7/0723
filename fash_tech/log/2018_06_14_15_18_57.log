@@ -1,0 +1,60 @@
+2018-06-14 15:18:57,317 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 15:19:11,511 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 15:19:12,019 - my_log.py[line:47] - CRITICAL:----------执行异常--------'LoginPage' object has no attribute 'fing_elements'
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 60, in test_02
+    self.login.login_case("1037791044@qq.com","asd123")
+  File "D:\Test\fash_tect_end\pages\LoginPage.py", line 57, in login_case
+    self.click_sub()
+  File "D:\Test\fash_tect_end\pages\LoginPage.py", line 38, in click_sub
+    self.clicks(self.login_but,1)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 79, in clicks
+    elements=self.fing_elements(locator)
+AttributeError: 'LoginPage' object has no attribute 'fing_elements'
+2018-06-14 15:19:12,026 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 15:19:15,752 - my_log.py[line:47] - CRITICAL:----------执行异常--------'ShopClassifiy' object has no attribute 'fing_elements'
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 76, in test_03
+    self.chooes_goods.choose_shop_method()
+  File "D:\Test\fash_tect_end\pages\shop_classifiy_Page.py", line 53, in choose_shop_method
+    self.choose_shop()
+  File "D:\Test\fash_tect_end\pages\shop_classifiy_Page.py", line 39, in choose_shop
+    suijishu = self.random_randint(self.shop_name)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 62, in random_randint
+    elements = self.fing_elements(loc)
+AttributeError: 'ShopClassifiy' object has no attribute 'fing_elements'
+2018-06-14 15:19:15,759 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 15:19:25,916 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 86, in test_04
+    self.add_cart.chooes_goods()
+  File "D:\Test\fash_tect_end\pages\goods_details_Page.py", line 101, in chooes_goods
+    self.click_addcar_button()
+  File "D:\Test\fash_tect_end\pages\goods_details_Page.py", line 72, in click_addcar_button
+    self.click(self.add_cart_button)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 75, in click
+    element=self.find_element(locator)
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 46, in find_element
+    element=WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-06-14 15:19:36,110 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 96, in test_05
+    goods_name_=self.add_cart.goods_name()
+  File "D:\Test\fash_tect_end\pages\goods_details_Page.py", line 75, in goods_name
+    return self.find_element(self.goods_name_loc).text()
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 46, in find_element
+    element=WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-06-14 15:19:36,562 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

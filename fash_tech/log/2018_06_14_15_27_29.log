@@ -1,0 +1,22 @@
+2018-06-14 15:27:29,378 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 15:27:38,286 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 15:27:39,921 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 15:27:47,548 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 15:28:01,993 - my_log.py[line:47] - CRITICAL:----------执行异常--------Message: 
+Traceback (most recent call last):
+  File "D:\Test\fash_tect_end\TestCase\Login.py", line 96, in test_05
+    goods_name_=self.add_cart.goods_name()
+  File "D:\Test\fash_tect_end\pages\goods_details_Page.py", line 75, in goods_name
+    self.find_element(self.goods_name_loc).text()
+  File "D:\Test\fash_tect_end\lee_selenium.py", line 46, in find_element
+    element=WebDriverWait(self.driver,timeout,1).until(EC.presence_of_element_located(locator))
+  File "D:\Test\venv1\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2018-06-14 15:28:02,597 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None

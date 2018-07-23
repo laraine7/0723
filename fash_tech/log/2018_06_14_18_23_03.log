@@ -1,0 +1,16 @@
+2018-06-14 18:23:03,121 - my_log.py[line:35] - INFO:------start driver-------
+NoneType: None
+2018-06-14 18:23:20,489 - my_log.py[line:35] - INFO:----------输入正常的账号密码---------
+NoneType: None
+2018-06-14 18:23:22,379 - my_log.py[line:35] - INFO:----------选择商品---------
+NoneType: None
+2018-06-14 18:23:38,272 - my_log.py[line:35] - INFO:----------加入购物车---------
+NoneType: None
+2018-06-14 18:23:38,822 - my_log.py[line:35] - INFO:----------点击结算---------
+NoneType: None
+2018-06-14 18:23:41,443 - my_log.py[line:35] - INFO:----------点击支付---------
+NoneType: None
+2018-06-14 18:23:42,515 - my_log.py[line:35] - INFO:------打印支付方式页面的句柄Fashion-Tech--------
+NoneType: None
+2018-06-14 18:23:47,606 - my_log.py[line:35] - INFO:------close driver------
+NoneType: None
