@@ -91,11 +91,11 @@ if __name__=="__main__":
     report_file = get_report_file(report_path)  # 3.获叏最新的测试报告
     # ------------1.跟发文件相关的参数----------
     smtpserver = "smtp.qq.com"
-    sender = "1037791044@qq.com"
-    psw = "eubwblfcyobzbeae"
-    receiver="laraine@mondial-d.com"
+    sender = "10377******4@qq.com"
+    psw = "eubwblf****ae"
+    receiver="lara*****ial-d.com"
     port=0
-    # receiver = 'laraine0908@sina.com'
+    
     send_email(sender, psw, receiver, smtpserver, report_file)
 
 
